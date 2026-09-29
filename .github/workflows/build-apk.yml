@@ -1,5 +1,6 @@
 name: Compilar DCtune
 on: push
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -7,15 +8,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+          
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Compilar APK
+          
+      - name: Compilar APK VERSIÓN OFICIAL
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew assembleRelease
+          
       - uses: actions/upload-artifact@v4
         with:
-          name: DCtune-APK
-          path: androbd/build/outputs/apk/debug/androbd-debug.apk
+          name: DCtune-APK-Release
+          path: androbd/build/outputs/apk/release/androbd-release.apk
