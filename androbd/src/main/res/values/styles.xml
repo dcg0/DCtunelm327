@@ -1,7 +1,0 @@
-<resources>
-    <!-- Application theme. -->
-    <style name="AppTheme" parent="Theme.Material3.DayNight" >
-        <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
-        <item name="android:fitsSystemWindows">true</item>
-    </style>
-</resources>
