@@ -1,6 +1,5 @@
-name: Compilar DCtune
+name: DCcecuelm327 — Release
 on: push
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -8,18 +7,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-          
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
-          
-      - name: Compilar APK VERSIÓN OFICIAL
+      - name: Compilar APK Release
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease
-          
       - uses: actions/upload-artifact@v4
         with:
-          name: DCtune-APK-Release
+          name: DCcecuelm327-Release
           path: androbd/build/outputs/apk/release/androbd-release.apk
