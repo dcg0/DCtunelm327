@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://dcg0.github.io/DCtunelm327/">
-    <img src="DCELM327.png" alt="DC-ELM327 HC — Diagnóstico Automotriz" width="680">
+    <img src="descargas/DCELM327.png" alt="DC-ELM327 HC — Diagnóstico Automotriz" width="680">
   </a>
 </p>
 
@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/badge/Mantenimiento-Activo-22c55e?style=flat-square" alt="Mantenimiento">
   <br>
   <img src="https://img.shields.io/badge/Tamaño-~1%20MB-orange?style=flat-square" alt="Tamaño">
-  <img src="https://img.shields.io/badge/Imagen-Incluida-8b5cf6?style=flat-square" alt="Imagen incluida">
+  <img src="https://img.shields.io/badge/Imagen-en%20carpeta%20descargas-8b5cf6?style=flat-square" alt="Imagen organizada">
   <img src="https://img.shields.io/badge/Documentación-PDF%20Incluida-3b82f6?style=flat-square" alt="PDF incluido">
   <img src="https://img.shields.io/badge/Plataforma-Android%20%7C%20Web-06b6d4?style=flat-square" alt="Plataforma">
   <br>
@@ -50,8 +50,14 @@
 
 ## 📄 Documentación Oficial
 
-- 📚 **[Comandos AT y Códigos OBD-II (PDF)](Comandos_AT_ELM327_ES-1.pdf)**
+- 📚 **[Comandos AT y Códigos OBD-II (PDF)](descargas/Comandos_AT_ELM327_ES-1.pdf)**
   > Manual completo en español — Todos los comandos, códigos de falla y referencias para el módulo ELM327
+
+---
+
+## 📂 Archivos en carpeta `descargas/`
+- ✅ `DCELM327.png` — Imagen oficial de portada (~1 MB)
+- ✅ `Comandos_AT_ELM327_ES-1.pdf` — Manual de referencia
 
 ---
 

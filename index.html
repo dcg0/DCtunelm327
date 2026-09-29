@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DCtune — Descargas Oficiales</title>
+  <title>DCtune HC — Descargas Oficiales</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, sans-serif; }
     :root {
@@ -11,16 +11,13 @@
       --accent:#2563eb; --success:#16a34a; --purple:#8b5cf6; --orange:#f97316;
       --text:#e5e7eb; --subt:#94a3b8;
     }
-    
     body {
       background: linear-gradient(135deg, var(--bg) 0%, var(--bg2) 100%);
       color: var(--text); line-height: 1.6; min-height: 100vh;
     }
-    
-    /* 🖼️ PORTADA COMPLETA */
     .portada {
       width: 100%; min-height: 90vh;
-      background: linear-gradient(to bottom, rgba(10,15,31,0.2), rgba(10,15,31,0.95)), url('DCELM327.png') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(10,15,31,0.2), rgba(10,15,31,0.95)), url('descargas/DCELM327.png') no-repeat center center;
       background-size: cover;
       display: flex; flex-direction: column;
       justify-content: center; align-items: center; text-align: center;
@@ -34,7 +31,6 @@
     }
     .portada-sub { font-size: 1.2rem; color: #cbd5e1; margin-bottom: 40px; max-width: 650px; }
     
-    /* ⚡ VISUAL: MÓDULO ELM327 ANIMADO */
     .modulo-elm {
       width: 140px; height: 90px;
       background: linear-gradient(135deg, #1e293b, #334155);
@@ -55,13 +51,10 @@
       0% { opacity: 0.4; transform: scale(0.9); }
       100% { opacity: 1; transform: scale(1.15); }
     }
-    .pines {
-      position: absolute; bottom: 8px; display: flex; gap: 4px;
-    }
+    .pines { position: absolute; bottom: 8px; display: flex; gap: 4px; }
     .pin { width: 6px; height: 14px; background: #64748b; border-radius: 1px; }
     .modulo-texto { font-size: 0.85rem; color: #94a3b8; margin-top: 8px; }
     
-    /* 📦 TARJETAS DE DESCARGA */
     .contenido { max-width: 1000px; margin: 0 auto; padding: 30px 20px 50px; }
     .section-title { font-size: 1.4rem; margin: 40px 0 20px; padding-bottom: 8px; border-bottom: 2px solid #1e293b; text-align: center; }
     
@@ -84,7 +77,6 @@
     .btn-morado { background: var(--purple); color: #fff; }
     .btn-naranja { background: linear-gradient(90deg, #ef4444, var(--orange)); color: #fff; }
     
-    /* 🔗 BOTONES PEQUEÑOS DEL PIE */
     .botones-pie { margin-top: 30px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; }
     .btn-mini {
       padding: 7px 14px; font-size: 0.75rem; border-radius: 6px;
@@ -101,16 +93,14 @@
 </head>
 <body>
 
-<!-- 🖼️ 1. PORTADA COMPLETA CON IMAGEN -->
 <div class="portada">
-  <h1 class="portada-titulo">DC-ELM327</h1>
+  <h1 class="portada-titulo">DC-ELM327 HC</h1>
   <p class="portada-sub">Diagnóstico Automotriz · Monitoreo en Tiempo Real · Códigos y Comandos</p>
 
-  <!-- ⚡ 5. MÓDULO ELM327 VISUAL E INTERACTIVO -->
   <div class="modulo-elm">
-    <div class="led led-pwr" title="Encendido"></div>
-    <div class="led led-tx" title="Transmitiendo"></div>
-    <div class="led led-rx" title="Recibiendo"></div>
+    <div class="led led-pwr"></div>
+    <div class="led led-tx"></div>
+    <div class="led led-rx"></div>
     <div class="pines">
       <div class="pin"></div><div class="pin"></div><div class="pin"></div>
       <div class="pin"></div><div class="pin"></div><div class="pin"></div>
@@ -120,11 +110,9 @@
   <p class="modulo-texto">Módulo Bluetooth OBD-II — Conectado y activo ✅</p>
 </div>
 
-<!-- 📋 CONTENIDO DE DESCARGAS -->
 <div class="contenido">
   <h2 class="section-title">📲 Descargas de Aplicaciones</h2>
 
-  <!-- 2. LAS 4 APKs COMPILADAS -->
   <div class="tarjeta">
     <div class="tarjeta-nombre">🚗 DCtune — Versión Principal</div>
     <div class="tarjeta-desc">Monitoreo completo del vehículo, gráficas en tiempo real y lectura de códigos de falla</div>
@@ -133,33 +121,31 @@
 
   <div class="tarjeta">
     <div class="tarjeta-nombre">🔧 DC-ELM327 — Diagnóstico Completo</div>
-    <div class="tarjeta-desc">Conexión Bluetooth, dashboard personalizable, exportación CSV y escaneo de sensores</div>
+    <div class="tarjeta-desc">Conexión Bluetooth, panel personalizable, exportación CSV y escaneo de sensores</div>
     <a href="https://github.com/dcg0/DC-ELM327/actions" class="btn btn-verde">📥 Descargar APK</a>
   </div>
 
   <div class="tarjeta">
     <div class="tarjeta-nombre">🛠️ DC-ELM327 HC — Terminal Avanzada</div>
-    <div class="tarjeta-desc">Envío de comandos AT directos, generación de reportes PDF y monitoreo profundo</div>
-    <a href="https://github.com/dcg0/DC-elm327HC/releases/tag/v0.1.0" class="btn btn-morado">📥 Descargar Release</a>
+    <div class="tarjeta-desc">Envío de comandos AT directos, reportes en PDF y monitoreo profundo del sistema</div>
+    <a href="https://github.com/dcg0/DCtunelm327/releases" class="btn btn-morado">📥 Descargar Release</a>
   </div>
 
   <div class="tarjeta">
     <div class="tarjeta-nombre">⚡ DCcecuelm327 — Versión Alternativa</div>
-    <div class="tarjeta-desc">Edición optimizada, compatible con más dispositivos y consumo reducido de batería</div>
+    <div class="tarjeta-desc">Optimizada, compatible con más dispositivos y menor consumo de batería</div>
     <a href="https://github.com/dcg0/DCcecuelm327/actions" class="btn btn-naranja">📥 Descargar APK</a>
   </div>
 
-  <!-- 3. PDF DESCARGA DIRECTA -->
   <h2 class="section-title">📄 Documentación</h2>
   <div class="tarjeta">
     <div class="tarjeta-nombre">📚 Comandos AT y Códigos OBD-II</div>
     <div class="tarjeta-desc">Manual completo en español: todos los comandos, códigos de falla y referencias para el módulo ELM327</div>
-    <a href="Comandos_AT_ELM327_ES-1.pdf" class="btn btn-morado">📄 Descargar PDF</a>
+    <a href="descargas/Comandos_AT_ELM327_ES-1.pdf" class="btn btn-morado">📄 Descargar PDF</a>
   </div>
 
-  <!-- 6. BOTONES PEQUEÑOS AL FINAL -->
   <footer>
-    © 2026 DCtune — Todos los derechos reservados<br>
+    © 2026 DCtune HC — Todos los derechos reservados<br>
     Hecho en México 🇲🇽
     
     <div class="botones-pie">
