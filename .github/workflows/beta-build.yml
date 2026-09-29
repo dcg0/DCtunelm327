@@ -1,0 +1,35 @@
+name: Android Beta APK build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Configurar JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          
+      - name: Instalar dependencias
+        run: npm install -g @expo/cli
+          
+      - name: Compilar APK
+        run: |
+          if [ -f "package.json" ]; then
+            npx expo prebuild --platform android
+            cd android
+            ./gradlew assembleBeta
+          fi
+          
+      - name: Subir APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: DCtune-Beta-APK
+          path: android/app/build/outputs/apk/beta/*.apk
