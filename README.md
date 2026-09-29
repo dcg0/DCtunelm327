@@ -1,110 +1,89 @@
-# 🚗 DC-ELM327 HC — Diagnóstico Automotriz
-
-> **Monitoreo en tiempo real · Lectura de códigos · Comandos OBD-II**
-
----
-
-## 🖼️ Portada
 
 <p align="center">
-  <a href="https://dcg0.github.io/DCtunelm327/">
-    <img src="descargas/DCELM327.png" alt="DC-ELM327 HC — Diagnóstico Automotriz" width="680">
-  </a>
+  <a href="https://github.com/dcg0/DC-ELM327/actions/workflows/security.yml"><img src="https://github.com/dcg0/DC-ELM327/actions/workflows/security.yml/badge.svg" alt="Security checks"></a>
+  <a href="https://github.com/dcg0/DC-ELM327/security"><img src="https://img.shields.io/badge/security-policy-available-176b46" alt="Security policy available"></a>
 </p>
 
----
+<div align="center">
 
-## 🛡️ Insignias y Estado
+![DC-ELM327](logonoche.png)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Estado-Activo-brightgreen?style=for-the-badge" alt="Estado: Activo">
-  <img src="https://img.shields.io/badge/GitHub-Páginas-blue?style=for-the-badge&logo=github" alt="GitHub Pages">
-  <img src="https://img.shields.io/badge/Licencia-Pública%20DCtune-purple?style=for-the-badge" alt="Licencia">
-  <br>
-  <img src="https://img.shields.io/badge/Seguridad-Activa-success?style=flat-square&logo=shield" alt="Seguridad">
-  <img src="https://img.shields.io/badge/Protección-Activa-brightgreen?style=flat-square" alt="Protección">
-  <img src="https://img.shields.io/badge/Calidad-Código%20Limpio-blue?style=flat-square" alt="Calidad">
-  <img src="https://img.shields.io/badge/Mantenimiento-Activo-22c55e?style=flat-square" alt="Mantenimiento">
-  <br>
-  <img src="https://img.shields.io/badge/Tamaño-~1%20MB-orange?style=flat-square" alt="Tamaño">
-  <img src="https://img.shields.io/badge/Imagen-en%20carpeta%20descargas-8b5cf6?style=flat-square" alt="Imagen organizada">
-  <img src="https://img.shields.io/badge/Documentación-PDF%20Incluida-3b82f6?style=flat-square" alt="PDF incluido">
-  <img src="https://img.shields.io/badge/Plataforma-Android%20%7C%20Web-06b6d4?style=flat-square" alt="Plataforma">
-  <br>
-  <img src="https://img.shields.io/badge/Versión-1.0.0-%23eab308?style=for-the-badge" alt="Versión 1.0">
-  <img src="https://img.shields.io/badge/Hecho%20en-México-%2316a34a?style=for-the-badge&labelColor=%23006847" alt="Hecho en México 🇲🇽">
-</p>
+# 🔌 DC-ELM327
+### Diagnóstico Automotriz OBD-II — En tu celular
+
+![Portada](portadanoche.png)
+
+> 🚗 Sensores en tiempo real • 📊 Gráficas dinámicas  
+> 🔧 Lectura y borrado de códigos de falla  
+> 📄 Exportación CSV • 📡 Bluetooth / BLE / USB / Wi-Fi
 
 ---
 
-## 📲 Descargas de Aplicaciones
+## ⬇️ Descargar APK — Última Versión
 
-| # | Versión | Descripción | Enlace |
-|---|---|---|---|
-| 1 | 🚗 **DCtune — Principal** | Monitoreo completo, gráficas en tiempo real y lectura de códigos de falla | [📥 Descargar APK](https://github.com/dcg0/DCtunelm327/actions) |
-| 2 | 🔧 **DC-ELM327 — Completo** | Conexión Bluetooth, panel personalizable, exportación CSV y escaneo de sensores | [📥 Descargar APK](https://github.com/dcg0/DC-ELM327/actions) |
-| 3 | 🛠️ **DC-ELM327 HC — Avanzada** | Terminal de comandos AT, reportes en PDF y monitoreo profundo | [📥 Descargar Release](https://github.com/dcg0/DCtunelm327/releases) |
-| 4 | ⚡ **DCcecuelm327 — Alternativa** | Versión optimizada, mayor compatibilidad con dispositivos | [📥 Descargar APK](https://github.com/dcg0/DCcecuelm327/actions) |
+### 📥 v2.7.10-debug
+**[⬇️ DC-ELM327-debug.apk](https://github.com/dcg0/DC-ELM327/releases/download/v2.7.10-debug/DC-ELM327-debug.apk)**
 
----
+- 📦 Tamaño: 6.19 MB
+- 📱 Android 9.0 o superior
+- ✅ Firmada para pruebas
+- 🔗 [Ver en Publicaciones / Releases](https://github.com/dcg0/DC-ELM327/releases/latest)
 
-## 📄 Documentación Oficial
+> ⚠️ Esta versión está firmada con clave de depuración. Para producción o Google Play, genera tu propia firma de lanzamiento.
 
-- 📚 **[Comandos AT y Códigos OBD-II (PDF)](descargas/Comandos_AT_ELM327_ES-1.pdf)**
-  > Manual completo en español — Todos los comandos, códigos de falla y referencias para el módulo ELM327
+</div>
 
 ---
 
-## 📂 Archivos en carpeta `descargas/`
-- ✅ `DCELM327.png` — Imagen oficial de portada (~1 MB)
-- ✅ `Comandos_AT_ELM327_ES-1.pdf` — Manual de referencia
+## 📋 ¿Qué es DC-ELM327?
+
+**DC-ELM327** es una aplicación Android que convierte tu celular en un escáner automotriz completo. Al conectar un adaptador **ELM327** al puerto OBD de tu vehículo, obtienes todos los datos de la computadora del auto en tiempo real.
+
+> ✅ Incluye **Modo Demo** — prueba todo sin necesidad de tener el adaptador o el auto conectado.
 
 ---
 
-## 🌐 Página Web Oficial
+## ✅ Características
 
-<p align="center">
-  <a href="https://dcg0.github.io/DCtunelm327/">
-    <img src="https://img.shields.io/badge/Visitar-Página%20Oficial-%232563eb?style=for-the-badge&logo=html5&logoColor=white" alt="Página Oficial">
-  </a>
-  <br>
-  👉 <strong>https://dcg0.github.io/DCtunelm327/</strong>
-</p>
+- ✅ Conexión por **Bluetooth clásico, BLE, USB y Wi-Fi/red**
+- ✅ Lectura y borrado de códigos de avería (DTC) con descripción
+- ✅ Datos en vivo, selección de PIDs y gráficas dinámicas
+- ✅ Vista de tablero, HUD y dashboard WebView
+- ✅ Información del vehículo, freeze frames y pruebas de control
+- ✅ Guardar/cargar mediciones y **exportar a CSV**
+- ✅ Modo Demo completo
+- ✅ Configuración de unidades, modo día/noche, pantalla completa
+- ✅ Soporte para plugins
+- ✅ Interfaz en varios idiomas
 
----
-
-## 🔗 Proyectos y Enlaces Relacionados
-
-<p align="center">
-  <a href="https://gooey.ai/2/bJyEe">
-    <img src="https://img.shields.io/badge/Gooey%20AI-Enlace%20Externo-8b5cf6?style=flat-square" alt="Gooey AI">
-  </a>
-  &nbsp;
-  <a href="https://mmesudo.github.io/agentedclucy/">
-    <img src="https://img.shields.io/badge/Lucy%20Agent-Página%20Web-06b6d4?style=flat-square" alt="Lucy Agent">
-  </a>
-  &nbsp;
-  <a href="https://suministrosintegralesdc.github.io/SolucionesintegralesDC/">
-    <img src="https://img.shields.io/badge/Soluciones%20DC-Página%20Web-16a34a?style=flat-square" alt="Soluciones DC">
-  </a>
-</p>
+> 💡 La comunicación real depende de un adaptador ELM327 compatible y los permisos de Bluetooth/USB/red del dispositivo.
 
 ---
 
-## ⚙️ Características del Proyecto
+## 📱 Requisitos
 
-- ✅ Conexión Bluetooth con módulos **ELM327 / OBD-II**
-- ✅ Lectura de **códigos de falla** y borrado
-- ✅ **Monitoreo en tiempo real** de sensores
-- ✅ Generación de **reportes PDF**
-- ✅ Exportación de datos en **CSV**
-- ✅ Gráficas y **panel personalizable**
-- ✅ Documentación completa en **español**
+- Android 9.0 o superior
+- Adaptador ELM327 compatible (Bluetooth recomendado)
+- Permisos de Bluetooth y Ubicación habilitados
+
+## 🔧 Instalación
+
+1. Descarga `DC-ELM327-debug.apk` desde el enlace de arriba
+2. Permite **instalar aplicaciones de fuentes desconocidas**
+3. Abre la app → elige tu tipo de conexión
+4. Empareja tu módulo ELM327 por Bluetooth → **Conectar** ✅
+5. Sin auto → selecciona **Modo Demo** para probar todo
 
 ---
 
-<p align="center">
-  <br>
-  <strong>© 2026 DCtune HC — Todos los derechos reservados</strong><br>
-  <em>Hecho con orgullo en México 🇲🇽</em>
-</p>
+## 🛠️ Para desarrolladores — Compilar desde el código
+
+### Requisitos
+- **JDK 17** (incluye `javac`)
+- **Android SDK Platform 36** + Build Tools 36.0.0
+- Gradle Wrapper incluido
+
+### Comandos
+```bash
+chmod +x gradlew
+./gradlew clean test assembleDebug
