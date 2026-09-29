@@ -1,4 +1,4 @@
-# 🚗 DC-ELM327 — Diagnóstico Automotriz
+# 🚗 DC-ELM327 HC — Diagnóstico Automotriz
 
 > **Monitoreo en tiempo real · Lectura de códigos · Comandos OBD-II**
 
@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://dcg0.github.io/DCtunelm327/">
-    <img src="DCELM327.png" alt="DC-ELM327 — Diagnóstico Automotriz" width="680">
+    <img src="DCELM327.png" alt="DC-ELM327 HC — Diagnóstico Automotriz" width="680">
   </a>
 </p>
 
@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/Calidad-Código%20Limpio-blue?style=flat-square" alt="Calidad">
   <img src="https://img.shields.io/badge/Mantenimiento-Activo-22c55e?style=flat-square" alt="Mantenimiento">
   <br>
-  <img src="https://img.shields.io/badge/Tamaño-3.6%20MB-orange?style=flat-square" alt="Tamaño">
+  <img src="https://img.shields.io/badge/Tamaño-~1%20MB-orange?style=flat-square" alt="Tamaño">
   <img src="https://img.shields.io/badge/Imagen-Incluida-8b5cf6?style=flat-square" alt="Imagen incluida">
   <img src="https://img.shields.io/badge/Documentación-PDF%20Incluida-3b82f6?style=flat-square" alt="PDF incluido">
   <img src="https://img.shields.io/badge/Plataforma-Android%20%7C%20Web-06b6d4?style=flat-square" alt="Plataforma">
@@ -99,6 +99,6 @@
 
 <p align="center">
   <br>
-  <strong>© 2026 DCtune — Todos los derechos reservados</strong><br>
+  <strong>© 2026 DCtune HC — Todos los derechos reservados</strong><br>
   <em>Hecho con orgullo en México 🇲🇽</em>
 </p>
