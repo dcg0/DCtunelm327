@@ -12,24 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Configurar JDK
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
           java-version: '17'
           
-      - name: Instalar dependencias
-        run: npm install -g @expo/cli
+      - name: Dar permiso a Gradle
+        run: chmod +x gradlew
           
       - name: Compilar APK
-        run: |
-          if [ -f "package.json" ]; then
-            npx expo prebuild --platform android
-            cd android
-            ./gradlew assembleBeta
-          fi
+        run: ./gradlew assembleDebug
+          
+      - name: Mostrar rutas generadas
+        run: find . -name "*.apk" -type f
           
       - name: Subir APK
         uses: actions/upload-artifact@v4
         with:
           name: DCtune-Beta-APK
-          path: android/app/build/outputs/apk/beta/*.apk
+          path: androbd/build/outputs/apk/debug/
