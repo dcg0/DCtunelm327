@@ -20,16 +20,11 @@ Thanks for your interest in contributing! This guide covers everything you need 
 
 ## Getting the code
 
-AndrOBD uses a Git submodule for the plugin framework. You **must** clone with `--recurse-submodules` or the build will fail:
+The plugin framework is included in this repository under `plugin/`; no Git submodule is required. Clone this repository directly:
 
 ```bash
-git clone https://github.com/fr3ts0n/AndrOBD.git --recurse-submodules
-```
-
-If you already have a plain clone:
-
-```bash
-git submodule update --init --recursive
+git clone https://github.com/dcg0/DCtunelm327.git
+cd DCtunelm327
 ```
 
 ---
@@ -74,7 +69,7 @@ AndrOBD will enter **Demo mode**, streaming simulated vehicle data.
 
 1. **Open or comment on an issue first.** This avoids duplicated effort and lets the maintainer give early feedback on the approach.
 2. **Check for open PRs** on the same topic before starting — search by title as well as issue cross-references.
-3. **Fork the repository** and create a branch from `master`.
+3. **Fork the repository** and create a branch from `main`.
 4. **Keep PRs small and focused** — one concern per PR makes review much faster.
 5. **Describe what and why** in the PR body. Include steps to test, and note whether you were able to test with a real OBD adapter.
 

@@ -5,9 +5,17 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: android-beta-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       
@@ -16,12 +24,13 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
+          cache: gradle
           
       - name: Dar permiso a Gradle
         run: chmod +x gradlew
           
       - name: Compilar APK
-        run: ./gradlew assembleDebug
+        run: ./gradlew --no-daemon test assembleDebug
           
       - name: Mostrar rutas generadas
         run: find . -name "*.apk" -type f

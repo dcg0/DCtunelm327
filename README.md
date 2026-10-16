@@ -1,7 +1,8 @@
 
 <p align="center">
-  <a href="https://github.com/dcg0/DC-ELM327/actions/workflows/security.yml"><img src="https://github.com/dcg0/DC-ELM327/actions/workflows/security.yml/badge.svg" alt="Security checks"></a>
-  <a href="https://github.com/dcg0/DC-ELM327/security"><img src="https://img.shields.io/badge/security-policy-available-176b46" alt="Security policy available"></a>
+  <a href="https://github.com/dcg0/DCtunelm327/actions/workflows/beta-build.yml"><img src="https://github.com/dcg0/DCtunelm327/actions/workflows/beta-build.yml/badge.svg" alt="Android build"></a>
+  <a href="https://github.com/dcg0/DCtunelm327/actions/workflows/security.yml"><img src="https://github.com/dcg0/DCtunelm327/actions/workflows/security.yml/badge.svg" alt="Security checks"></a>
+  <a href="https://github.com/dcg0/DCtunelm327/security"><img src="https://img.shields.io/badge/security-policy-available-176b46" alt="Security policy available"></a>
 </p>
 
 <div align="center">
@@ -30,6 +31,8 @@
 - 🔗 [Ver en Publicaciones / Releases](https://github.com/dcg0/DC-ELM327/releases/latest)
 
 > ⚠️ Esta versión está firmada con clave de depuración. Para producción o Google Play, genera tu propia firma de lanzamiento.
+>
+> El enlace de descarga apunta al repositorio de distribución `DC-ELM327`; este repositorio mantiene el código fuente y sus validaciones CI.
 
 </div>
 
