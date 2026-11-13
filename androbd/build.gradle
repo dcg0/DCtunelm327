@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace = 'com.fr3ts0n.ecu.gui.androbd'
-    compileSdk 36
+    compileSdk 37
 
     buildFeatures {
         resValues = true
