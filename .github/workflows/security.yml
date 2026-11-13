@@ -30,18 +30,28 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
+
+      - name: Configurar JDK
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+
+      - name: Dar permiso a Gradle
+        run: chmod +x gradlew
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@v4
         with:
           languages: ${{ matrix.language }}
-          build-mode: autobuild
+          build-mode: manual
 
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
+      - name: Compilar para CodeQL
+        run: ./gradlew --no-daemon test assembleDebug
 
       - name: Analyze
-        uses: github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@v4
         with:
           category: "/language:${{ matrix.language }}"
